@@ -1,0 +1,8 @@
+ffLinux : FishVideoLinux.o  FishEyeCorrect.o
+	g++ -o FishVideoLinux.o  FishEyeCorrect.o 
+FishVideoLinux.o:FishVideoLinux.cpp
+	g++ -c FishVideoLinux.cpp -L/home/xarkit/x86ff -lopencv_core -lopencv_highgui -lopencv_imgproc
+FishEyeCorrect.o:FishEyeCorrect.cpp FishEyeCorrect.h
+	g++ -c FishEyeCorrect.cpp -L/home/xarkit/x86ff -lopencv_core -lopencv_highgui -lopencv_imgproc
+
+

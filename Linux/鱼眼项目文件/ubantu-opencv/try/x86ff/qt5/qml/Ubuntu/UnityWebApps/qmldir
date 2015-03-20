@@ -1,0 +1,5 @@
+module Ubuntu.UnityWebApps
+plugin UnityWebApps
+UnityWebAppsJs 0.1 UnityWebApps.js
+UnityWebAppsUtils 0.1 UnityWebAppsUtils.js
+UnityWebApps 0.1 UnityWebApps.qml

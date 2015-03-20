@@ -1,0 +1,36 @@
+﻿生成启动时间为 2014/10/11 9:36:24。
+     1>项目“D:\用户目录\我的文档\Visual Studio 2010\Projects\FishVideo\2048\2048\2048.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\2048.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\2048.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 2048.cpp
+         2048.cpp
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(10): warning C4603: “_XOPEN_SOURCE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(11) : 使用预编译头
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(39): error C3861: “snprintf”: 找不到标识符
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(62): error C3861: “snprintf”: 找不到标识符
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(227): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(243): warning C4244: “=”: 从“uint16_t”转换到“int8_t”，可能丢失数据
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(244): warning C4244: “=”: 从“uint16_t”转换到“int8_t”，可能丢失数据
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(252): error C2079: “old”使用未定义的 struct“setBufferedInput::termios”
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(253): error C2143: 语法错误 : 缺少“;”(在“new”的前面)
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(253): error C2059: 语法错误:“;”
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(257): error C2065: “STDIN_FILENO”: 未声明的标识符
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(257): error C2065: “TCSANOW”: 未声明的标识符
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(257): error C3861: “tcsetattr”: 找不到标识符
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(262): error C2065: “STDIN_FILENO”: 未声明的标识符
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(262): error C2059: 语法错误:“)”
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(262): error C3861: “tcgetattr”: 找不到标识符
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(264): error C2059: 语法错误:“;”
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(268): error C2065: “STDIN_FILENO”: 未声明的标识符
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(268): error C2065: “TCSANOW”: 未声明的标识符
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(268): error C2059: 语法错误:“)”
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(268): error C3861: “tcsetattr”: 找不到标识符
+     1>d:\用户目录\我的文档\visual studio 2010\projects\fishvideo\2048\2048\2048.cpp(390): error C3861: “usleep”: 找不到标识符
+     1>已完成生成项目“D:\用户目录\我的文档\Visual Studio 2010\Projects\FishVideo\2048\2048\2048.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.24

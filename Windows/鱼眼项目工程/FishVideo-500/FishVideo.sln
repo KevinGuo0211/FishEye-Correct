@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FishVideo", "FishVideo\FishVideo.vcxproj", "{CC06DFFC-109E-4D06-B5BF-2F128647441E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{8210427E-7754-417C-9F2D-6D90BA1A4B03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC06DFFC-109E-4D06-B5BF-2F128647441E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC06DFFC-109E-4D06-B5BF-2F128647441E}.Debug|Win32.Build.0 = Debug|Win32
+		{CC06DFFC-109E-4D06-B5BF-2F128647441E}.Release|Win32.ActiveCfg = Release|Win32
+		{CC06DFFC-109E-4D06-B5BF-2F128647441E}.Release|Win32.Build.0 = Release|Win32
+		{8210427E-7754-417C-9F2D-6D90BA1A4B03}.Debug|Win32.ActiveCfg = Debug
+		{8210427E-7754-417C-9F2D-6D90BA1A4B03}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

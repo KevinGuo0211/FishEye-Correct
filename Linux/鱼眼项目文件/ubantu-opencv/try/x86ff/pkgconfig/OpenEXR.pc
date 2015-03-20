@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+OpenEXR_includedir=${prefix}/include/OpenEXR
+
+Name: OpenEXR
+Description: OpenEXR image library
+Version: 1.6.1
+Libs: -L${libdir} -L/usr/lib -lIlmImf -lz -pthread -lImath -lHalf -lIex -lIlmThread
+Cflags:  -I/usr/include/OpenEXR -pthread -I${OpenEXR_includedir}

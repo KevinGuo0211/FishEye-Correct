@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir_old=${prefix}/include/opencv
+includedir_new=${prefix}/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 2.4.8
+Libs: -L${libdir} ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_calib3d.so -lopencv_calib3d ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_contrib.so -lopencv_contrib ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_core.so -lopencv_core ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_features2d.so -lopencv_features2d ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_flann.so -lopencv_flann ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_gpu.so -lopencv_gpu ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_highgui.so -lopencv_highgui ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_imgproc.so -lopencv_imgproc ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_legacy.so -lopencv_legacy ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_ml.so -lopencv_ml ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_objdetect.so -lopencv_objdetect ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_ocl.so -lopencv_ocl ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_photo.so -lopencv_photo ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_stitching.so -lopencv_stitching ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_superres.so -lopencv_superres ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_ts.so -lopencv_ts ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_video.so -lopencv_video ${exec_prefix}/lib/x86_64-linux-gnu/libopencv_videostab.so -lopencv_videostab
+Cflags: -I${includedir_old} -I${includedir_new}

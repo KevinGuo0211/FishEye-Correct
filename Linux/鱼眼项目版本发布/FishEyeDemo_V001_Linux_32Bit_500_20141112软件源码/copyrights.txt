@@ -1,0 +1,14 @@
+Copyright (C) 2003-2014 XI'AN RANKE INFORMATION TECHNOLOGY CO.,LTD
+You can use this software to demostrate or do experiments.It is 
+developed under GNU-linux,32 bits.This software is programmed to 
+correct video images by fisheye lens. Fisheye lens are popularly 
+used for various applications such as video conference group,large 
+scope monitoring system,global surveillance,robotic navigation and 
+so on.Fisheye lens with the super-wide angle provide hemispherical 
+view field,however it brings strong unavoidable inherent distortion 
+in resulting images.The correctio for the distorted image is critical 
+procedures.this software mainly the correction and expansion for 
+omidirectional image with a fisheye len.If you copy this software without 
+our company's permission,we will protect our rights and interests by law.
+DE is writen by xarkit.
+

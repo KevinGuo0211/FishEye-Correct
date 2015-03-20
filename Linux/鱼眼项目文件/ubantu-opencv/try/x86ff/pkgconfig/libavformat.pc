@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: libavformat
+Description: Libav container format library
+Version: 54.20.4
+Requires: 
+Requires.private: libavcodec = 54.35.0
+Conflicts:
+Libs: -L${libdir} -lavformat 
+Libs.private: -ldl -ldl -lXfixes -lXext -lX11 -lcdio_paranoia -lcdio_cdda -lcdio -ljack -lasound -ldc1394 -lraw1394 -lgcrypt -lxvidcore -lx264 -lvpx -lvpx -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -lspeex -lschroedinger-1.0 -lrtmp -lz -lgnutls -lpulse-simple -lpulse -lopus -lopenjpeg -lmp3lame -lgsm -lfreetype -lgnutls -lva -lm -pthread -lbz2 -lz
+Cflags: -I${includedir}

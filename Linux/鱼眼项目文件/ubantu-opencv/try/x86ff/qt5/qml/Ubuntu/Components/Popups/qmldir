@@ -1,0 +1,11 @@
+module Ubuntu.Components.Popups
+
+Dialog 0.1 Dialog.qml
+PopupBase 0.1 PopupBase.qml
+Popover 0.1 Popover.qml
+SheetBase 0.1 SheetBase.qml
+DefaultSheet 0.1 DefaultSheet.qml
+ComposerSheet 0.1 ComposerSheet.qml
+ActionSelectionPopover 0.1 ActionSelectionPopover.qml
+
+PopupUtils 0.1 popupUtils.js

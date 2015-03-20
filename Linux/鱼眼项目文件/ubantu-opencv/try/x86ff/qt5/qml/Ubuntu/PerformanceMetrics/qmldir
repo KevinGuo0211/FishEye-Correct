@@ -1,0 +1,5 @@
+module Ubuntu.PerformanceMetrics
+plugin UbuntuPerformanceMetrics
+
+PerformanceOverlay 0.1 PerformanceOverlay.qml
+internal BarGraph BarGraph.qml

@@ -1,0 +1,1 @@
+解决了程序最后出现的segmentation fault问题。

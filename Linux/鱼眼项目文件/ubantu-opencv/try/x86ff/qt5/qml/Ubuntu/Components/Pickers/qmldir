@@ -1,0 +1,10 @@
+module Ubuntu.Components.Pickers
+Picker 0.1 Picker.qml
+PickerDelegate 0.1 PickerDelegate.qml
+Dialer 0.1 Dialer.qml
+DialerHand 0.1 DialerHand.qml
+DatePicker 0.1 DatePicker.qml
+internal YearModel YearModel.qml
+internal MonthModel MonthModel.qml
+internal DayModel DayModel.qml
+internal PickerModelBase PickerModelBase.qml

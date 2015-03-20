@@ -1,0 +1,38 @@
+ MFC中Slider Control 使用简例   滑动条控制（Slider   Control）也叫轨道条控制，其主要是用一个带有轨道和滑标的小窗口以及窗口上的刻度，来让用户选择一个离散数据或一个连续的数值区间。通过鼠标或键盘来进行数据的选择操作。（转）
+
+    在对话框中放一个Slider控件，添加相应的Ctrl型变量为m_slider。在对话框初始化函数OnInitDialog()中添加：
+
+
+
+
+ BOOL CDlgSetup::OnInitDialog()
+ {
+     CDialog::OnInitDialog();
+     // TODO: Add extra initialization here
+
+     m_slider.SetRang(0,100);//设置滑动范围
+
+     m_slider.SetTicFreq(10);//每10个单位画一刻度        （这里我也试了，可是怎么没看见刻度呢???）
+     return TRUE;  // return TRUE unless you set the focus to a control
+ }
+ 
+
+  Slider控件本身并没有响应滑动的消息函数，但可以通过主窗体的OnHScroll()响应。在类向导中为对话框添加WM_HSCROLL消息，在响应函数中添加：
+
+ 
+
+ void CDlgSetup::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar)
+ {
+     // TODO: Add your message handler code here and/or call default
+     m_value = m_slider.GetPos();//[ 滑动条当前刻度 ]
+
+     m_slider.SetPos(50);        //[ 设置刻度条显示位置]
+
+     UpdateData(FALSE);          //[ 变量值->控件显示]
+     CDialog::OnHScroll(nSBCode, nPos, pScrollBar);
+
+ }  
+
+ 
+
+  在网上搜了一些文章有些对于slider控件的消息响应函数是OnNMCustomdrawSlider(NMHDR *pNMHDR, LRESULT *pResult);，我自然也是试了下了，但是这个没反应，不知道是此消息响应不工作，还是我用法不对（应该没错），不过上面的方法试验过是正确的，放心使用。

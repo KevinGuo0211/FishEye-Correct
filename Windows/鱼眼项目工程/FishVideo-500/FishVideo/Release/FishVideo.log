@@ -1,0 +1,22 @@
+﻿生成启动时间为 2015/3/6 11:29:06。
+     1>项目“E:\MyWork\鱼眼项目\Windows\鱼眼项目工程\FishVideo-500\FishVideo\FishVideo.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\FishVideo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         FishVideo.vcxproj -> E:\MyWork\鱼眼项目\Windows\鱼眼项目工程\FishVideo-500\Release\FishVideo.exe
+       Manifest:
+         所有输出均为最新。
+       FinalizeBuildStatus:
+         正在删除文件“Release\FishVideo.unsuccessfulbuild”。
+         正在对“Release\FishVideo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\MyWork\鱼眼项目\Windows\鱼眼项目工程\FishVideo-500\FishVideo\FishVideo.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.23

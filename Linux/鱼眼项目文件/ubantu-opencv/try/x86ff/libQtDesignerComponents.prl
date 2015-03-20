@@ -1,0 +1,4 @@
+QMAKE_PRO_INPUT = lib.pro
+QMAKE_PRL_TARGET = libQtDesignerComponents.so.4.8.6
+QMAKE_PRL_CONFIG = lex yacc warn_on uic resources qt warn_on release incremental link_prl gdb_dwarf_index shared def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release largefile stl precompile_header mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath fix_output_dirs QTDIR_build nostrip use_libmysqlclient_r hide_symbols qt depend_prl no_objective_c designer qt_install_headers dll create_pc shared dll moc thread
+QMAKE_PRL_VERSION = 4.8.6

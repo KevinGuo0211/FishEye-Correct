@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+OpenEXR_includedir=${prefix}/include/OpenEXR
+
+Name: IlmBase
+Description: Base math and exception libraries
+Version: 1.0.1
+Libs: -L${libdir} -lImath -lHalf -lIex -lIlmThread -lpthread
+Cflags:  -I${OpenEXR_includedir}

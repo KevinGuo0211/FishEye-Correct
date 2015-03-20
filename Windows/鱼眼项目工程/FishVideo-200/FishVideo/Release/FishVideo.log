@@ -1,0 +1,37 @@
+﻿生成启动时间为 2014/11/11 16:15:48。
+     1>项目“C:\Users\Administrator\Desktop\FishVideo\FishVideo\FishVideo.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\FishVideo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"StdAfx.h" /Fp"Release\FishVideo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ScanningMethod.cpp
+         ScanningMethod.cpp
+     1>d:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>ScanningMethod.cpp(19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>ScanningMethod.cpp(20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>ScanningMethod.cpp(21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\FishVideo\Release\FishVideo.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d247.lib opencv_contrib247.lib opencv_core247.lib opencv_features2d247.lib opencv_flann247.lib opencv_gpu247.lib opencv_highgui247.lib opencv_imgproc247.lib opencv_legacy247.lib opencv_ml247.lib opencv_objdetect247.lib opencv_ts247.lib opencv_video247.lib /MANIFEST /ManifestFile:"Release\FishVideo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\FishVideo\Release\FishVideo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\FishVideo\Release\FishVideo.lib" /MACHINE:X86 Release\FishVideo.res
+         Release\cdib.obj
+         Release\CvvImage.obj
+         Release\FisheyeImgCorrection.obj
+         Release\FishVideo.obj
+         Release\FishVideoDlg.obj
+         Release\ScanningMethod.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         FishVideo.vcxproj -> C:\Users\Administrator\Desktop\FishVideo\Release\FishVideo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Desktop\FishVideo\Release\FishVideo.exe;#1" /manifest Release\FishVideo.exe.intermediate.manifest "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\FishVideo.unsuccessfulbuild”。
+         正在对“Release\FishVideo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\FishVideo\FishVideo\FishVideo.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.98

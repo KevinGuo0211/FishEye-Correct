@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openmp-test", "openmp-test\openmp-test.vcxproj", "{EA03C7FC-E5C9-4DA2-AFFC-24BD809E2236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA03C7FC-E5C9-4DA2-AFFC-24BD809E2236}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA03C7FC-E5C9-4DA2-AFFC-24BD809E2236}.Debug|Win32.Build.0 = Debug|Win32
+		{EA03C7FC-E5C9-4DA2-AFFC-24BD809E2236}.Release|Win32.ActiveCfg = Release|Win32
+		{EA03C7FC-E5C9-4DA2-AFFC-24BD809E2236}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
